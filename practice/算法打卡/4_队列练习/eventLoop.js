@@ -17,6 +17,5 @@ console.log('end');
 
 // 2 laowai end 3 4
 
-
 // javascript 有同步任务 -> 微任务 -> 宏任务
 // Promise 的创建是同步任务，.then 才是异步 属于微任务

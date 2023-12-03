@@ -20,6 +20,7 @@ function reversedHead(head) {
         cur.next = pre;
         pre = cur;
         cur = next;
+        // console.log(pre);
     }
     return pre;
 }

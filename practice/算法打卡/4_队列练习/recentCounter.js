@@ -15,5 +15,5 @@ RecentCounter.prototype.ping = function(t) {
     while(this.queue[0] < t - 3000) {
         this.queue.shift();
     }
-    return this.queue.lengthl
+    return this.queue.length;
 };
